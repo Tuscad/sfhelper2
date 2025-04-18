@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SF Album Helper</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>🔖 SF Album Helper</h1>
+        <p>Twoje narzędzie do śledzenia kolekcji kart w SFgame</p>
+    </header>
+    
+    <main>
+        <section id="upload-section">
+            <h2>🎯 Krok 1: Wgraj screenshoty albumu</h2>
+            <input type="file" id="screenshot-input" accept="image/*" multiple>
+            <button id="analyze-btn">Analizuj</button>
+        </section>
+
+        <section id="results">
+            <!-- Tu pojawią się wyniki -->
+        </section>
+    </main>
+    <div id="zof-upload">
+        <h3>Krok 1: Wgraj swój plik ZHOF</h3>
+        <input type="file" id="zof-file" accept=".txt,.json">
+      </div>
+    <script src="./scripts/app.js" type="module"></script>
+</body>
+</html>
